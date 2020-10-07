@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/index.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 500px;
+            height: 300px;
+            position: relative;
+            overflow: hidden;
+            margin: 20px;
+        }
+        /* 轮播2样式 */
+        .slide{
+            overflow: hidden;
+            width: 2000px;
+            position: absolute;
+            left: 0px;
+        }
+        .slide li{
+            list-style: none;
+            float: left;
+        }
+        .slide li img {
+            width: 500px;
+            height: 300px;
+        }
+        .slide-page{
+            position: absolute;
+            margin: 0;
+            right: 180px;
+            bottom: 10px;
+            overflow: hidden;
+        }
+        .slide-page li{
+            list-style: none;
+            width: 30px;
+            border-radius: 50%;
+            line-height: 30px;
+            background: rgba(0, 0, 0, 0.3);
+            text-align: center;
+            float: left;
+            margin-right: 10px;
+        }
+        .slide-page li a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .slide-page .on{
+            background: skyblue;
+        }
+        /* 轮播3样式 */
+        .slide2{
+            overflow: hidden;
+            width: 2000px;
+            position: absolute;
+            left: 0px;
+        }
+        .slide2 li{
+            list-style: none;
+            float: left;
+        }
+        .slide2 li img {
+            width: 500px;
+            height: 300px;
+        }
+        .slide-page2{
+            position: absolute;
+            margin: 0;
+            right: 180px;
+            bottom: 10px;
+            overflow: hidden;
+        }
+        .slide-page2 li{
+            list-style: none;
+            width: 30px;
+            border-radius: 50%;
+            line-height: 30px;
+            background: rgba(0, 0, 0, 0.3);
+            text-align: center;
+            float: left;
+            margin-right: 10px;
+        }
+        .slide-page2 li a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .slide-page2 .on{
+            background: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>轮播图2(原生js无缝)</h1>
+    <div class="box">
+        <ul class="slide">
+            <li><img src="imgs/star1.jpg" alt=""></li>
+            <li><img src="imgs/star2.jpg" alt=""></li>
+            <li><img src="imgs/star3.jpg" alt=""></li>
+            <li><img src="imgs/star1.jpg" alt=""></li>
+        </ul>
+        <ul class="slide-page">
+            <li class="on"><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+        </ul>
+    </div>
+    <h1>轮播图3(jquery无缝)</h1>
+    <div class="box">
+        <ul class="slide2">
+            <li><img src="imgs/star1.jpg" alt=""></li>
+            <li><img src="imgs/star2.jpg" alt=""></li>
+            <li><img src="imgs/star3.jpg" alt=""></li>
+            <li><img src="imgs/star1.jpg" alt=""></li>
+        </ul>
+        <ul class="slide-page2">
+            <li class="on"><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+        </ul>
+    </div>
+</body>
+</html>

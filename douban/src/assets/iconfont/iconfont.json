@@ -1,0 +1,121 @@
+{
+  "id": "2113147",
+  "name": "icondb",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1037688",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "3506877",
+      "name": "weibo",
+      "font_class": "weibo",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1089298",
+      "name": "赞",
+      "font_class": "buoumaotubiao18",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "9810108",
+      "name": "分享",
+      "font_class": "fenxiang_2",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "15974015",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "11852261",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "551962",
+      "name": "箭头",
+      "font_class": "arrow-right",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "643793",
+      "name": "安全",
+      "font_class": "17",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "967630",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "1687154",
+      "name": "我的",
+      "font_class": "ziyuan",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "6327877",
+      "name": "锁定",
+      "font_class": "suoding",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "7440448",
+      "name": "在线联系2",
+      "font_class": "zaixianlianxi",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "7674895",
+      "name": "记录",
+      "font_class": "lianluojilu",
+      "unicode": "e717",
+      "unicode_decimal": 59159
+    },
+    {
+      "icon_id": "8791333",
+      "name": "帮助",
+      "font_class": "bangzhu",
+      "unicode": "e728",
+      "unicode_decimal": 59176
+    },
+    {
+      "icon_id": "9472100",
+      "name": "银行卡",
+      "font_class": "yinhangka",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "17447686",
+      "name": "豆瓣",
+      "font_class": "douban",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    }
+  ]
+}

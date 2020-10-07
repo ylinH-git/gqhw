@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box">
+
+    </div>
+</body>
+<script>
+    var list = [{
+        type: "广东省",
+        list: [{
+            type: "广州市",
+            list: [{
+                type: "天河市",
+                list: [{
+                        type: "1"
+                    },
+                    {
+                        type: "2",
+                    }
+                ]
+            }]
+        }, {
+            type: "深圳市",
+            list: [{
+                type: "南山区",
+            }]
+        }, ]
+    }]
+    strArr = [];
+    stateArr = [];
+    var str = ''
+    var fstr = list[0].type
+
+    function getStr(l) {
+        l.forEach(item => {
+            str = str + '-' + item.type
+            if (l.find(a => {
+                    return a.list != undefined
+                })) {
+                    var sstr=str
+                    if(item.list.length<=1){
+                        sstr=str+"-"+item.list[0].type
+                    }
+                stateArr.push(sstr)
+                getStr(item.list)
+            } else {
+                stateArr.pop(str)
+                console.log(stateArr)
+                strArr.push(str.slice(1))
+                str = stateArr[stateArr.length - 1]
+            }
+        })
+
+
+    }
+
+    getStr(list);
+    console.log(strArr)
+    box.innerHTML = strArr
+</script>
+
+</html>
